@@ -70,8 +70,12 @@ Podemos obtener ayuda escribiendo *help* para ver qué necesitamos saber en conc
 
 # 4.- ¿Cómo probamos que podemos acceder a un servidor?
 
-Para acceder a un servidor, podemos utilizar el comando **wget** ó **curl** ya que es una opción disponible al usuario. Trata de un programa de línea de comandos con la biblioteca correspondiente incluida y que permite la transferencia de datos entre ordenadores interconectados.
+Para acceder a un servidor, podemos utilizar el comando **wget** ó **curl** ya que es una opción disponible para el usuario. Se trata de un programa de línea de comandos con la biblioteca correspondiente incluida, y que permite la transferencia de datos entre ordenadores interconectados a través del acceso al servidor.
 
+Si probamos en Windows7 ambos comandos, sucede lo siguiente:
+![comando9](imagenes/comando9.png)
 
+**Nota Importante (Personal):** Tras horas de intentos y búsquedas, no he conseguido avanzar en éste comando. Creo que viene dado por mi sistema operativo y la versión del powerShell que por lo que he investigado, tiene que ser a partir de la versión 5. Por lo que opto finalmente ha realizar dicho comando mediante una máquina virtual de ubuntu.  
 
+**¿Cómo se usa?** Para utilizar el comando 
 
