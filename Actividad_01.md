@@ -23,7 +23,26 @@ Ahora que ya conocemos nuestra dirección IP, vamos a comprobar si tenemos acces
 
 # 2.- ¿Cómo sabemos si nuestro servidor es accesible desde internet? 
 
-Para saber si nuestro servidor es accesible desde internet, debemos ver los puertos abiertos en nuestro Sistema Operativo. Al utilizar un S.O. Windows, necesitaremos el comando **netstat** ("**ufw**" para Linux). Nos surge una duda que es cómo 
+Para saber si nuestro servidor es accesible desde internet, debemos ver los puertos abiertos en nuestro Sistema Operativo. 
+
+**¿Qué hace el comando?** Al utilizar un S.O. Windows, necesitaremos el comando **netstat** ("**ufw**" para Linux).
+
+Ahora bien, nos surge la duda de **¿Cómo se usa o qué hace éste comando?** para ello, podemos pedir ayuda a nuestra consola, escribiendo **netstat /?** que nos mostrará un menú de opciones como muestro en la siguiente imagen:
+
+![comando3](imagenes/comando3.png)
+
+**¿Por qué responde a la pregunta?** Observamos que el comando **netstat -a** lo que hace es mostrar las estadísticas del protocolo y conexiones TCP/IP actuales. Como lo que queremos es saber si nuestro servidor es accesible desde internet, vamos a buscar nuestro servidor y ver qué ocurre. 
+
+En mi caso concreto, estoy usando un servidor *Apache Tomcat* que está utilizando el puerto **8083**
+![comando4](imagenes/comando4.png)
+
+A continuación, utilizando *netstat -a* vemos que nuestro servidor sí que está escuchando aunque, no es accesible desde internet (remota) sino que "escucha" de manera local.
+
+![comando5](imagenes/comando5.png)
+
+
+
+ 
 
 
 
