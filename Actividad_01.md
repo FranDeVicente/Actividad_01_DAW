@@ -77,5 +77,6 @@ Si probamos en Windows7 ambos comandos, sucede lo siguiente:
 
 **Nota Importante (Personal):** Tras horas de intentos y búsquedas, no he conseguido avanzar en éste comando. Creo que viene dado por mi sistema operativo y la versión del powerShell que por lo que he investigado, tiene que ser a partir de la versión 5. Por lo que opto finalmente ha realizar dicho comando mediante una máquina virtual de ubuntu.  
 
-**¿Cómo se usa?** Para utilizar el comando 
+**¿Cómo se usa?** Si usamos el comando "curl servidor" (suponiendo que el servidor que usamos sea el más conocido, google) sería "curl google.es" y **el su compartamiento de su salida** sería sacarnos sólo el "head" de la cabecera del html de google y sin embargo, si utilizamos la sentencia "curl -v google.es", el comportamiento de salida, sería la conexión con el servidor. Podemos ver que conecta por el puerto 80
+ 
 
