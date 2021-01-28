@@ -1,6 +1,8 @@
+
 ![Portada](imagenes/portada.png)
 
 ![Enunciado](imagenes/enunciado01.png)
+
 
 # 01.- ¿Cómo sabemos si tenemos acceso a internet? 
 
@@ -36,13 +38,15 @@ Ahora bien, nos surge la duda de **¿Cómo se usa o qué hace éste comando?** p
 En mi caso concreto, estoy usando un servidor *Apache Tomcat* que está utilizando el puerto **8083**
 ![comando4](imagenes/comando4.png)
 
-A continuación, utilizando *netstat -a* vemos que nuestro servidor sí que está escuchando aunque, no es accesible desde internet (remota) sino que "escucha" de manera local.
+A continuación, utilizando *netstat -a* vemos que nuestro servidor sí que está escuchando, aunque en éste caso no es accesible desde internet si que es accesible de manera local. Por lo que, podemos saber si nuestro servidor es accesible desde internet mirando las conexiones activas y viendo si se encuentra en la columna "local" o "remota". 
+
+Muestro aquí **cómo se comporta la salida**.
 
 ![comando5](imagenes/comando5.png)
 
 
+# 3.- ¿Cómo sabemos a quién pertenece una dirección web (URL)?
 
- 
 
 
 
