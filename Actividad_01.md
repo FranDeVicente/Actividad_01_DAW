@@ -47,6 +47,31 @@ Muestro aquí **cómo se comporta la salida**.
 
 # 3.- ¿Cómo sabemos a quién pertenece una dirección web (URL)?
 
+Para poder saber a quién pertenece una dirección web (URL), podemos utilizar tanto el comando **nslookup** como también el comando **dig** en windows, a partir de la versión 10. En mi caso como ya mencioné, mi S.O. es Windows 7 por tanto lo realizaré con *nslookup*. Pero... **¿qué hacen estos comandos?**
+
+Ambos comandos son una herramienta muy útil que podemos utilizar para consultar servidores y permite a los usuarios realizar consultas a los distintos registros DNS. 
+
+Con **nslookup**, podemos obtener la dirección IP asociada a un nombre DNS y viceversa, además, podemos preguntar a los servidores de nombres información relativa a los registros de recursos (RR) de las zonas de las que son autorizados.
+
+**Nota:** nslookup se usa de dos modos: interactivo y no interactivo. El modo interactivo permite al usuario consultar los servidores DNS para obtener información sobre varios hosts y dominios o para listar los hosts de un dominios. El modo no interactivo se usa para presentar solo el nombre y la información solicitada para un host o nombre DNS.
+
+**¿Cómo se usa?**
+Primero tenemos que iniciar el comando en nuestro terminal. Para ello, simplemente lo escribimos y pulsamos "enter"
+
+![comando6](imagenes/comando6.png)
+
+Podemos obtener ayuda escribiendo *help* para ver qué necesitamos saber en concreto y solicitarlo
+![comando7](imagenes/comando7.png)
+
+**¿Por qué responde a mi pregunta?** Porque si indicamos una dirección web, la que sea, nos dice a quién pertenece. Por poner un ejemplo, vamos a ver a quién pertenece la web (URL) del instituto (ITT). Yo le voy a decir que me de toda la información, por lo que usaré "set query=any" tal como nos indica en la ayuda del comando.
+
+**Así interpreta la salida:**
+![comando8](imagenes/comando8.png)
+
+# 4.- ¿Cómo probamos que podemos acceder a un servidor?
+
+Para acceder a un servidor, podemos utilizar el comando **wget** ó **curl** ya que es una opción disponible al usuario. Trata de un programa de línea de comandos con la biblioteca correspondiente incluida y que permite la transferencia de datos entre ordenadores interconectados.
+
 
 
 
